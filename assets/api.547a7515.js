@@ -1,0 +1,1 @@
+import{c as t,e as a,a as c}from"./server.850431cf.js";t(a(c(self,(async(t,a,c)=>{try{c(null,await async function(t,a,c){const n=!!c.length;let e;try{e=await fetch(`${t}${encodeURIComponent(a)}`,{method:n?"POST":"GET",body:n?JSON.stringify(c):null})}catch(o){throw o}try{return await e.json()}catch(o){throw o}}(a.shift(),t,a))}catch(n){c(n)}}))));
